@@ -1,0 +1,25 @@
+{
+  "name": "rating-drift-detector",
+  "version": "1.0.0",
+  "description": "An explainable credit-surveillance project for a CRISIL / S&P Global GAC internship portfolio. It combines Python, SQLite SQL and Excel to identify companies whose financial profile is weakening before a rating action.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashmieconomics/rating-drift-detector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rashmieconomics/rating-drift-detector/issues"
+  },
+  "homepage": "https://github.com/rashmieconomics/rating-drift-detector#readme"
+}

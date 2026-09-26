@@ -1,4 +1,8 @@
+import tempfile
 import unittest
+from pathlib import Path
+
+from src.export_excel import export_workbook
 from src.pipeline import calculate_metrics
 
 class CreditScoreTests(unittest.TestCase):
@@ -7,6 +11,13 @@ class CreditScoreTests(unittest.TestCase):
         result = calculate_metrics(rows)[0]
         self.assertEqual(result["risk_band"], "High")
         self.assertIn("High leverage", result["flags"])
+
+    def test_export_workbook_creates_xlsx(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            output = Path(tmpdir) / "rating_drift_dashboard.xlsx"
+            result = export_workbook(output)
+            self.assertTrue(result.exists())
+            self.assertTrue(result.suffix == ".xlsx")
 
 if __name__ == "__main__":
     unittest.main()
