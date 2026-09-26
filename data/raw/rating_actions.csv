@@ -1,0 +1,7 @@
+company_id,action_date,rating,outlook,action_type,rationale_summary
+C001,2025-01-15,A+,Stable,Reaffirmed,Healthy operating profile and moderate leverage.
+C002,2025-01-15,A,Stable,Reaffirmed,Established customer relationships support the rating.
+C003,2025-01-15,A+,Stable,Reaffirmed,Strong liquidity and conservative capital structure.
+C004,2025-01-15,AA-,Stable,Reaffirmed,Diversified product portfolio and stable margins.
+C005,2025-01-15,A-,Stable,Reaffirmed,Operational track record offsets moderate leverage.
+C006,2025-01-15,A+,Stable,Reaffirmed,Stable demand and comfortable debt protection metrics.
